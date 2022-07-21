@@ -1,0 +1,12 @@
+=begin
+i = 0
+num = 5
+
+while i < num  do
+   puts("Inside the loop i = " + i.to_s )
+   i +=1
+end
+=end
+for i in 0..5
+    puts "Value of i is #{i}"
+ end   

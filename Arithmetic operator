@@ -1,0 +1,33 @@
+=begin
+ 
+ Arithmetic operator {+ - * / % **}
+ 
+ a = 20
+ b = 10
+ c = a + b
+ puts c
+ puts a + b 
+ puts a - b
+ puts a * b
+ puts a / b
+ puts a % b
+ puts a ** b   
+=end
+
+
+
+# comparison operator {== != < > <= >= <=> ===}
+# Assignment operator {= += -= *= /= %= **=}
+=begin
+# Ruby supports the parallel assignments of variables.
+#a = 10 
+#b = 20 
+a, b = 10, 20
+puts a,b
+=end
+
+# Bitwise operator { & | ^ ~ >> <<}
+# Ternary operator { If Condition is true ? Then value X : Otherwise value Y}
+# Rang operator { (..)operator= 1..10 Creates a range from 1 to 10 inclusive. }
+  #              { (...)operator = 1...10 Creates a range from 1 to 9.}
+  

@@ -1,0 +1,17 @@
+name = "Shashank"
+age = "23"
+puts ("My name is " + name)
+# Create a variable which holds the integer value.
+age = 21
+# we can not merge string with integer. convert into same data type.
+puts ("My age is " + age.to_s)
+puts age
+# we can access any  character of string by their index.
+puts age[1]
+
+# Use of math class.
+puts Math.sqrt(100)
+
+puts 5 + 5
+#when we are use integer no. to perform any operation than ruby gives resultas # interger . if we use any operand a float than ruby gives float.
+puts 5.0 + 2
